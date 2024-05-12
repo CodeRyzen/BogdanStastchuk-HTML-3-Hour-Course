@@ -1,0 +1,128 @@
+<!-- https://www.youtube.com/watch?v=W4MIiV4nZDY -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>My Favourite Places</title>
+        <link rel="apple-touch-icon" sizes="180x180"
+            href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32"
+            href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16"
+            href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <style>
+            .aloo {
+                background-color: darkslategray;
+            }
+
+            .navbar {
+                --bs-navbar-padding-y: 0;
+            }
+
+            .container {
+                margin: 0px 63.0857px;
+            }
+
+            .card {
+                border-radius: 1em;
+                text-align: center;
+                padding: 1em;
+            }
+
+            .card:hover {
+                background-color: rgba(0, 0, 0, 0.1);
+            }
+
+            .card img {
+                border-radius: 50%;
+                width: 60%;
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md aloo">
+            <div class="container">
+                <a class="navbar-brand p-0" href="index.html">
+                    <img src="M.png" alt="logo" width="40">
+                </a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page"
+                                href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Favourite
+                                Places</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container my-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+                <div class="col">
+                    <div class="card">
+                        <img src="https://picsum.photos/id/1015/300/"
+                            class="card-img-top"
+                            alt="My Image">
+                        <div class="card-body">
+                            <h5 class="card-title">River</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Qui quae incidunt
+                                quidem, quasi dolorem praesentium.</p>
+                            <a href="https://picsum.photos/id/1015/1500/"
+                                class="btn btn-primary" target="_blank">Large
+                                Photo</a>
+                        </div>
+                    </div>
+                </div><div class="col">
+                    <div class="card">
+                        <img src="https://picsum.photos/id/1019/300/"
+                            class="card-img-top"
+                            alt="My Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Ocean</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet
+                                consectetur, adipisicing elit. Porro repudiandae
+                                inventore laborum eveniet accusamus
+                                accusantium.</p>
+                            <a href="https://picsum.photos/id/1019/1500/"
+                                class="btn btn-primary" target="_blank">Large
+                                Photo</a>
+                        </div>
+                    </div>
+                </div><div class="col">
+                    <div class="card">
+                        <img src="https://picsum.photos/id/10/300/"
+                            class="card-img-top"
+                            alt="My Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Forest</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet
+                                consectetur adipisicing elit. Sit nemo ratione
+                                dolorum ipsa atque fugiat!</p>
+                            <a href="https://picsum.photos/id/10/1500/"
+                                class="btn btn-primary" target="_blank">Large
+                                Photo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
